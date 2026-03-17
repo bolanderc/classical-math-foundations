@@ -1,0 +1,42 @@
+# How to Use This Book
+
+## Welcome
+
+This resource provides classical mathematical texts formatted for modern learners. It's designed to help students build a strong, rigorous foundation in mathematics by engaging with timeless sources.
+
+## Getting Started
+
+### For Students
+- **Read actively**: Work through proofs step-by-step
+- **Practice problems**: Don't skip exercises—they reinforce understanding
+- **Take notes**: Write in your own words what you're learning
+- **Revisit difficult sections**: Mathematical concepts often require multiple exposures
+
+### For Parents/Educators
+- **Use as a supplement**: Pair with your curriculum or use independently
+- **Set a pace**: Allow time for concepts to settle before moving forward
+- **Encourage questions**: Mathematical thinking thrives on curiosity
+- **Work through examples together**: Discussing ideas deepens comprehension
+
+## Structure
+
+Each section includes:
+- **Definitions**: Precise mathematical language
+- **Propositions**: Theorems with proofs
+- **Examples**: Concrete applications
+- **Exercises**: Problems to reinforce learning
+
+## Philosophy
+
+Classical mathematical texts like Euclid's Elements teach more than facts—they teach *how to think mathematically*. This format preserves that rigor while making the material accessible to modern students.
+
+## Tips for Success
+
+1. **Don't rush**: Quality understanding beats speed
+2. **Draw diagrams**: Visualization aids mathematical intuition
+3. **Discuss ideas**: Explaining concepts reveals gaps in understanding
+4. **Build confidence**: Each mastered concept becomes a foundation for the next
+
+---
+
+Begin your mathematical journey [here](./index.qmd).

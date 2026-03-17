@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Classical Mathematics Foundations: Euclid's Elements"
+  author: "Christian Bolander"
+  date: "3/16/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - introduction/using.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: book
+  epub: default
+

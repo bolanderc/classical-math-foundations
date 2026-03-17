@@ -1,0 +1,17 @@
+# Quarto build output
+_book/
+_site/
+
+# Quarto cache
+.quarto/
+
+# R and Python environment files (if applicable)
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
