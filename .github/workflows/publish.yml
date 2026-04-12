@@ -10,13 +10,10 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -26,12 +23,13 @@ jobs:
 
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: euclid-elements   # 👈 THIS IS THE KEY FIX
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _book
+          path: euclid-elements/_book   # 👈 ALSO IMPORTANT
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
