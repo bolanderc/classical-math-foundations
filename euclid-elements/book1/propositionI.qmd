@@ -25,7 +25,45 @@ Finally, touch the tip of your pen or pencil.
 Which of these is a point? Which is not? Why?
 :::
 
+## Definition 2: Lines
+
+On to our second definition for this game:
+
+> A *line* is breadthless length.
+
+First, let's talk about the word "breadthless". It means that a line has no width. It is so thin that it looks like.
+
+::: {.callout-note .discussion-box title="Discussion"}
+What does it mean for something to have no width? Can you imagine something that has length but no width?
+:::
+
+These are games that mathematicians, engineers, scientits, artists, and philosphers have been playing for thousands of years! Sometimes, we have to come up with something that isn't really how the world works to help us understand *how* the world works.
+
+Just like before, let's start by having you draw a line on a piece of paper. It will have some width, but we can pretend that it doesn't. We can imagine that it is infinitely thin.
+
+![A line drawn on textured paper.](./figures/propI_line.png)
+
+Next, let's draw a curved line. Go ahead and have some fun with it:
+
+![A curved line drawn on textured paper.](./figures/propI_curved_line.png)
+
+Do you have a book nearby? Look at the edges of the book's cover and its pages. What do they look like?
+
+![The edge of a book, showing the cover and pages.](./figures/propI_book.png)
+
+::: {.callout-note .discussion-box title="Discussion"}
+Which of these are lines? Which are not? Why?
+:::
+
+## Definition 3:
+
 ## The Game
+
+Euclid says that the game is to
+
+> On a given finite straight line to construct an equilateral triangle.
+
+In other words, we need to make a triangle with three equal sides using only a straight line segment as our starting point.
 
 <iframe
 scrolling="no"
