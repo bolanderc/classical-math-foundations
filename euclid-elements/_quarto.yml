@@ -7,15 +7,25 @@ book:
   date: "3/16/2026"
   chapters:
     - index.qmd
-    - intro.qmd
-    - introduction/using.qmd
-    - summary.qmd
-    - references.qmd
+
+    - part: "Introduction"
+      chapters:
+      - intro.qmd
+      - introduction/using.qmd
+
+    - part: "Book I"
+      chapters:
+      - book1/propositionI.qmd
+    
+    - part: "References"
+      chapters:
+      - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
+    css: styles.css
     theme:
       - cosmo
       - brand

@@ -1,0 +1,37 @@
+# Game 1: What Can I Do With Two Points?
+
+Euclid's first game challenges us to explore what we can do with just two points. This is the foundation of all geometry, as points are the most basic building blocks.
+We need to understand a few of the definitions and rules of the game before we can start playing, and we also need to be able to agree on what it means to play the game fairly.
+These concepts, referred to by Euclid as "definitions", "postulates", and "common notions", were introduced in full in the introduction.
+You should have gotten a chance to glance at those, but it is in these games that we will actually take the leap to understand them more fully and see how they work in practice.
+
+## Definition 1: Points
+
+The first definition in Euclid's Elements states:
+
+> A *point* is that which has no part.
+
+Take out a piece of paper and draw a dot.
+
+![A dot scribbled on textured paper.](./figures/propI_dot.png)
+
+Now draw a circle:
+
+![A circle drawn on textured paper.](./figures/propI_circle.png)
+
+Finally, touch the tip of your pen or pencil.
+
+::: {.callout-note .discussion-box title="Discussion"}
+Which of these is a point? Which is not? Why?
+:::
+
+## The Game
+
+<iframe
+scrolling="no"
+title="Euclid Proposition I"
+src="https://www.geogebra.org/material/iframe/id/rnufypja/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false"
+width="700px"
+height="500px"
+style="border:4px;">
+</iframe>

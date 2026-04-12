@@ -39,4 +39,4 @@ Classical mathematical texts like Euclid's Elements teach more than facts—they
 
 ---
 
-Begin your mathematical journey [here](./index.qmd).
+Begin your mathematical journey [here](../index.qmd).

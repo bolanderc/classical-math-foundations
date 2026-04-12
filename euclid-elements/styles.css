@@ -1,0 +1,22 @@
+.discussion-box.callout {
+  border: 2px solid #1f1f1f;
+  border-radius: 18px;
+  background-color: #b9efb1;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.discussion-box .callout-header {
+  background-color: #8dde84;
+  border-bottom: 2px solid #1f1f1f;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+}
+
+.discussion-box .callout-body {
+  padding: 0.9rem 1rem;
+}
+
+.discussion-box p:last-child {
+  margin-bottom: 0;
+}
