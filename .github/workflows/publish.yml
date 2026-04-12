@@ -22,14 +22,12 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: euclid-elements   # 👈 THIS IS THE KEY FIX
+        run: quarto render euclid-elements --to html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: euclid-elements/_book   # 👈 ALSO IMPORTANT
+          path: euclid-elements/_book
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
