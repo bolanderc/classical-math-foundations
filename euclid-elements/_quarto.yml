@@ -1,6 +1,5 @@
 project:
   type: book
-  base-url: /classical-math-foundations/
 
 book:
   title: "Classical Mathematics Foundations: Euclid's Elements"
