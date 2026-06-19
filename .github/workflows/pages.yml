@@ -1,4 +1,4 @@
-﻿name: Deploy Math EPUB
+name: Deploy Classical Math Foundations
 
 on:
   push:
@@ -26,14 +26,21 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render math HTML and EPUB
-        run: quarto render euclid-elements --to html,epub
+      - name: Render math HTML
+        run: quarto render euclid-elements --to html
 
-      - name: Assemble Pages site
+      - name: Start Pages site with HTML output
         shell: bash
         run: |
           mkdir -p _site
           cp -R euclid-elements/_book/* _site/
+
+      - name: Render math EPUB
+        run: quarto render euclid-elements --to epub
+
+      - name: Add EPUB download
+        shell: bash
+        run: |
           cp "euclid-elements/_book/Classical-Mathematics-Foundations--Euclid-s-Elements.epub" _site/classical-math-foundations.epub
           touch _site/.nojekyll
 
