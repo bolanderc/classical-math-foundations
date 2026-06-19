@@ -26,11 +26,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render math HTML
-        run: quarto render euclid-elements --to html
-
-      - name: Render math EPUB
-        run: quarto render euclid-elements --to epub
+      - name: Render math HTML and EPUB
+        run: quarto render euclid-elements --to html,epub
 
       - name: Assemble Pages site
         shell: bash
