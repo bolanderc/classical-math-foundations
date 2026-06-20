@@ -12,6 +12,9 @@ _site/
 __pycache__/
 *.pyc
 
+# Manim render cache (finished animation assets live under figures/)
+euclid-elements/media/
+
 # System files
 .DS_Store
 Thumbs.db

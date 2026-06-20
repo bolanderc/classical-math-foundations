@@ -1,0 +1,4 @@
+# Used only to regenerate the embedded animation. A 64-bit Python is recommended.
+manim==0.18.0.post0
+imageio-ffmpeg==0.6.0
+edge-tts==7.2.8

@@ -65,6 +65,27 @@ Euclid says that the game is to
 
 In other words, we need to make a triangle with three equal sides using only a straight line segment as our starting point.
 
+### Euclid's Construction
+
+The animation follows Euclid's construction one permitted step at a time. Notice that both circles use the given segment $AB$ as their radius. Their intersection is therefore the same distance from $A$ and $B$ as $A$ is from $B$.
+
+::: {.content-visible when-format="html"}
+```{=html}
+<video class="proposition-animation" controls preload="metadata" playsinline>
+  <source src="./figures/proposition1.mp4" type="video/mp4">
+  Your browser does not support embedded video. You can still use the interactive construction below.
+</video>
+```
+:::
+
+::: {.content-visible unless-format="html"}
+The two circles meet at $C$. Because $AC$ and $BC$ are radii of circles whose radius is $AB$, we have $AB = AC = BC$; therefore, triangle $ABC$ is equilateral.
+:::
+
+The [Manim scene source](./animations/proposition1.py) is included so the animation can be studied, changed, and rendered again.
+
+### Try the Construction
+
 <iframe
 scrolling="no"
 title="Euclid Proposition I"

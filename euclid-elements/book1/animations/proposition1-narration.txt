@@ -1,0 +1,13 @@
+Euclid, Book One, Proposition One.
+
+Start with segment A B.
+
+Draw a circle centered at A, with radius A B.
+
+Draw another circle centered at B, with the same radius.
+
+Name one intersection C.
+
+Then join A to C, and B to C.
+
+Because each side is a radius, A B, A C, and B C are equal. Therefore, triangle A B C is equilateral.
